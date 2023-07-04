@@ -12,4 +12,4 @@ function paginationtrapper(info){
     }
     pagination.innerHTML= template
 
-}
+}pp
