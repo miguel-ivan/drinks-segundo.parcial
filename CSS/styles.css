@@ -12,10 +12,42 @@
     animation: fanimado 10s infinite;
     height: 100vh;
   }
+ 
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold; 
+}
+
+h1{
+  color: #ffffff;
+  font-size: 45px;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+  color: #090909;
+}
+
+a:hover{
+  color: #00B7DA;
+}
+  
+
   .container {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 60%;
     left: 50%;
     width: 90vw;
     max-width: 37.5em;
@@ -89,6 +121,7 @@
     margin-left: 1.8em;
     display: grid;
     grid-template-columns: auto auto;
+    line-height: 70%;
   }
   #result li {
     margin-bottom: 0.3em;
@@ -97,6 +130,7 @@
     text-align: justify;
     font-weight: 400;
     font-size: 0.95em;
+    line-height: 100%;
   }
   .msg {
     text-align: center;
