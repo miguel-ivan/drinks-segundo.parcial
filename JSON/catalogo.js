@@ -15,9 +15,11 @@ fetching().then(
     let template = ''
     drinks.forEach(drink => {
       template += `
-             <img src=${drink.strDrinkThumb}>
-             <h2>${drink.strDrink}</h2>
-             `
+      <div class="results">
+      <img src=${drink.strDrinkThumb}>
+      <h2>${drink.strDrink}</h2>
+      </div>
+      `
     })
     results.innerHTML = template
   }

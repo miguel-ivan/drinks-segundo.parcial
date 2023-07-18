@@ -158,11 +158,17 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-
+    color: #fefefe;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #results img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
+.containers{
+ text-align: center;
+font-size: 20px;
+}
